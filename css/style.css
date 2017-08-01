@@ -1,0 +1,141 @@
+	.wrapper{
+		background-color: rgb(238,243,159);
+		padding-top: 25px;
+		padding-right: 25px;
+		padding-left: 460px;
+		margin-bottom: 100px;
+		border-radius: 0 30px 30px 0;
+		max-width: 620px;
+		width: 45%;
+		min-width: 350px;
+		height: 520px;
+		position: relative;
+}
+	.fade {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		background-color: rgba(255,255,255,0.58);
+		//opacity: .5;
+	}
+	body {
+		background-image: url(../Olive_Background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		padding-top: 160px;
+}
+	nav {
+		background-color: rgb(80,51,55);
+		color: rgb(238,243,159);
+		padding-left: 460px;
+		position: fixed;
+		width: 100%;
+		top:0px;
+		z-index: 10;
+}
+	#nav a {
+		text-decoration: none;
+		color: rgb(238,243,159);
+	}
+	#nav li {
+		list-style: none;
+		display: inline-block;
+		text-decoration: none;
+		padding: 10px;
+}
+	#nav li ul {
+		background-color: rgb(80,51,55);
+	 	position: absolute;
+		display: none;
+}
+	#nav li ul li {
+		display: block;
+}
+	#nav li:hover ul{
+		display: block;
+}
+	h1{
+		font-family: 'Coiny', cursive;
+		font-size: 52px;
+		letter-spacing: 3px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+}
+	li{
+		display: inline-block;
+		padding-right: 50px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: 'Coiny', cursive;
+}
+	ul{
+		padding-left: 0px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+}
+	h2{
+		font-size: 25px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		font-family: 'Sansita', sans-serif;
+}
+/*.anchor{
+		position:relative;
+		top: -400px;
+}*/
+	h3{
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: rgb(80,51,55);
+	font-family: 'Sansita', sans-serif;
+}
+	body{
+		margin: 0px;
+		background-color: #66ccff;
+}
+	p{
+		color: rgb(80,51,55);
+		margin-top: 0px;
+		padding-right: 20px;
+		font-family: 'Sansita', sans-serif;
+		font-size: 16px;
+		text-indent: 20px;
+		letter-spacing: 1px;
+}
+
+	.imagebox{
+		width: 185px;
+		height: 160px;
+		position: absolute;
+		left: 60px;
+		top: 345px;
+	}
+	.imagebox img {
+		border-radius: 30px;
+	}
+	.imagecutout{
+		position: absolute;
+		top: -80px;
+		left: 0;
+		z-index: 10;
+}
+	.quotebox{
+		left: 260px;
+		top: 345px;
+}
+	.singlesoap{
+		left: 460px;
+		top: 345px;
+}
+	.groupsoap{
+		left: 660px;
+		top: 345px;
+}
+	.sandsoap{
+		left: 860px;
+		top: 345px;
+}
